@@ -36,10 +36,31 @@ body {
   margin: 0;
   color: #000;
   font-size: 12px;
-  line-height: 1.4;
+  line-height: 1.5;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #4fa319; 
+}
+
+#nav {
+
+}
+
+#banner {
+
+}
+
+#features {
+
+}
 /******************************************
 /* LAYOUT                   
 /*******************************************/
