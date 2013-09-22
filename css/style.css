@@ -71,18 +71,42 @@ h1 {
 h2 {
   margin: 0;
   font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #4fa319; 
+  line-height: 2;
 }
 
 #nav {
 
 }
+  #nav a {
+    float: right;
+    line-height: 1.5;
+    color: #999;
+  }
+
+  #nav a:hover {
+    color: #000;
+    text-decoration: none;
+  }
 
 #banner {
   background: url('../images/jogging.jpg') no-repeat;
   height: 400px;
+  padding: 20px;
 }
+
+  #banner h2 {
+    color: #FFF;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  #banner p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
+  }
 
 #features {
 
@@ -103,6 +127,22 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent; 
+  
+  border-right:5px solid #69cccc; 
+}
+
+.paddingtop {
+  padding-top: 40px;
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px #999;
+}
 
 .border{
   border:1px solid black;
