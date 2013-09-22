@@ -180,8 +180,6 @@ footer {
   display:block;
 }
 
-<<<<<<< HEAD
-=======
 /******************************************
 /* VIDEO                 
 /*******************************************/
@@ -238,10 +236,11 @@ img {
      margin-bottom:0;
 }
 
-.row_background{
-
+#test{
+     background: black;
+     height:100px;
 }
 
+/*border: 2px solid #69cccc;*/
 
->>>>>>> 76e3fe2984a78be8344c55c6c33a283099590bd2
 
