@@ -76,6 +76,11 @@ h2 {
   line-height: 2;
 }
 
+h3 h4 {
+  font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
+  color:black;
+}
+
 #nav {
 
 }
@@ -103,7 +108,7 @@ h2 {
     text-transform: uppercase;
   }
 
-  #banner h3 {
+  #banner h3, #welcome_msg h3 {
     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: #000;
@@ -239,6 +244,20 @@ img {
 #test{
      background: black;
      height:100px;
+}
+
+#welcome_msg{
+     padding:1%;
+}
+
+#welcome_msg h4 {
+    font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
+    color: black;
+  }
+
+#lesson_instructions h3, h4 {
+     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
+    color: black;
 }
 
 /*border: 2px solid #69cccc;*/
