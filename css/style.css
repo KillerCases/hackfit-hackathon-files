@@ -110,3 +110,114 @@ footer {
   display:block;
 }
 
+/******************************************
+/* VIDEO                 
+/*******************************************/
+
+.videoWrapper {
+     position: relative;
+     padding-bottom: 56.25%; /* 16:9 */
+     padding-top: 25px;
+     height: 0;
+}
+.videoWrapper iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+.space{
+     padding-top: 1%;
+     padding-bottom: 1%;
+}
+
+/******************************************
+/* STAR              
+/*******************************************/
+
+
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #69CCCC;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid #69CCCC;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: #69CCCC;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #69CCCC;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+#square {
+     width: 100px;
+     height: 100px;
+     background: #69CCCC;
+}
+
+#starcontainer{
+      max-width: 100%;
+     height: auto;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+
+
