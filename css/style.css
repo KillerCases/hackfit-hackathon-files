@@ -26,17 +26,17 @@
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 .alignright {
-	float: right; 
-	padding: 0 0 10px 10px;
+  float: right; 
+  padding: 0 0 10px 10px;
 }
 
 .alignleft {
-	float: left; 
-	padding: 0 10px 10px 0;
+  float: left; 
+  padding: 0 10px 10px 0;
 }
 
 /******************************************
@@ -108,7 +108,7 @@ h3 h4 {
   #banner h2 {
     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
     color: #FFF;
-    font-size: 40px;
+    font-size: 3.5em;
     text-transform: uppercase;
   }
 
@@ -116,51 +116,125 @@ h3 h4 {
     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: #000;
-    font size: 25px;
+    font-size: 2em;
   }
 
   #banner h4 {
     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
     background: #000;
     color: #FFF;
-    padding: 15px;
+    padding: 20px;
   }
 
   #banner h4:hover {
     background: #69cccc;
   }
 
+    #banner h4:hover:nth-of-type(1) {
+      background: #69cccc;   
+    }
+
+    #banner h4:hover:nth-of-type(2) {
+      background: green;   
+    }
+
+
   #banner p {
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.5em;
     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
   }
 
 #features {
-
+  margin-bottom: 100px;
 }
+
+  #features img {
+    width: 300px;
+    border: 1px solid #000;
+    padding: 2px;
+  }
 
 #courseinfo {
   background: #FFF;
   opacity:0.6;
   filter:alpha(opacity=60);
+  padding-bottom: 20px;
 }
 
 /******************************************
-/* LAYOUT                   
+/* Search Bar                   
 /*******************************************/
 
-header {
-
+#searchbar {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 5px;
+  background: #FFF;
 }
 
-footer {
+  #searchbar img {
+    border-left: 1px solid #CCC;
+    padding-left: 3%;
+  }
 
+  #searchbar img:hover {
+    opacity:0.6;
+    filter:alpha(opacity=60);
+  }
+
+#search {
+  height: 41px;
+  width: 85%;
+  color: #999;
+  font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 0;
+  letter-spacing: 2px;
+  background: #FFF;
+  border: none;
+}
+
+#search_btn {
+  background: url('../images/icon_search.png') #FFF;
+  border: none;
+  height: 41px;
+}
+
+#searchbar input[type="submit"] {
+  
+}
+
+/******************************************
+/* User Update                 
+/*******************************************/
+
+#userupdate {
+}
+
+  #userupdate img {
+    border: none;
+  }
+
+.margin {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.update {
+  float: left;
+  background: #000;
 }
 
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
+.center {
+  text-align: center;
+}
+
 .round-bg {
   border: 1px solid #FFF;
   border-radius:25px;
