@@ -258,6 +258,39 @@ img {
      height:100px;
 }
 
+#review_rating{
+     float:left;
+     display:block;
+}
+
+
+
+/******************************************
+/* METRICS          
+/*******************************************/
+
+#metrics_box div{
+     display:inline-block;
+     float:left;
+}
+
+#metrics_box #metrics1 img{
+     margin-right:1px;
+}
+
+#metrics_box #metrics3 img{
+     margin-left:1px;
+}
+
+#metrics_box #metrics1 #play{
+     z-index: 2;
+}
+
+
+/******************************************
+/* OTHER - JO           
+/*******************************************/
+
 #welcome_msg{
      padding:1%;
 }
@@ -271,6 +304,48 @@ img {
      font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
     color: black;
 }
+
+#graph{
+     display:inline-block;
+     background-color:gray;
+}
+
+#run div{
+     float:left;
+}
+
+#run #run1 img{
+     margin-right:100px;
+     margin-left:0;
+     z-index:0;
+}
+
+#run #run2{
+     z-index:0;
+}
+
+#run #run3 img{
+     margin-left:100px;
+     margin-right:0;
+}
+
+#run1 #play img{
+     z-index:2;
+   
+}
+
+#rating_box p{
+     text-align: right;
+}
+
+#rating_box .rating{
+     display:block;
+     float:right;
+}
+
+
+
+
 
 /*border: 2px solid #69cccc;*/
 
