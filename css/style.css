@@ -26,17 +26,17 @@
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 .alignright {
-	float: right; 
-	padding: 0 0 10px 10px;
+  float: right; 
+  padding: 0 0 10px 10px;
 }
 
 .alignleft {
-	float: left; 
-	padding: 0 10px 10px 0;
+  float: left; 
+  padding: 0 10px 10px 0;
 }
 
 /******************************************
@@ -123,12 +123,21 @@ h3 h4 {
     font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
     background: #000;
     color: #FFF;
-    padding: 15px;
+    padding: 20px;
   }
 
   #banner h4:hover {
     background: #69cccc;
   }
+
+    #banner h4:hover:nth-of-type(1) {
+      background: #69cccc;   
+    }
+
+    #banner h4:hover:nth-of-type(2) {
+      background: green;   
+    }
+
 
   #banner p {
     color: #FFF;
@@ -137,8 +146,14 @@ h3 h4 {
   }
 
 #features {
-
+  margin-bottom: 100px;
 }
+
+  #features img {
+    width: 300px;
+    border: 1px solid #000;
+    padding: 2px;
+  }
 
 #courseinfo {
   background: #FFF;
@@ -152,7 +167,7 @@ h3 h4 {
 /*******************************************/
 
 #searchbar {
-  width: 410px;
+  width: 70%;
   margin-top: 20px;
   margin-left: 5px;
   padding: 5px;
@@ -161,7 +176,7 @@ h3 h4 {
 
   #searchbar img {
     border-left: 1px solid #CCC;
-    padding-left: 5px;
+    padding-left: 3%;
   }
 
   #searchbar img:hover {
@@ -171,7 +186,7 @@ h3 h4 {
 
 #search {
   height: 41px;
-  width: 350px;
+  width: 85%;
   color: #999;
   font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
@@ -216,6 +231,10 @@ h3 h4 {
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
+.center {
+  text-align: center;
+}
+
 .round-bg {
   border: 1px solid #FFF;
   border-radius:25px;
