@@ -147,6 +147,42 @@ h3 h4 {
 }
 
 /******************************************
+/* Search Bar                   
+/*******************************************/
+
+#searchbar {
+  width: 410px;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 5px;
+  background: #FFF;
+}
+
+#search {
+  text-transform: uppercase;
+  height: 41px;
+  width: 350px;
+  color: #999;
+  font-family: 'weblysleek_uilight', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+  letter-spacing: 2px;
+  background: #FFF;
+  border: none;
+}
+
+#search_btn {
+  background: url('../images/icon_search.png') #FFF;
+  border: none;
+  height: 41px;
+}
+
+#searchbar input[type="submit"] {
+  
+}
+
+/******************************************
 /* LAYOUT                   
 /*******************************************/
 
